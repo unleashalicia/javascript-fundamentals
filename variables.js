@@ -20,7 +20,7 @@ var4 = 4;
 }
 
 try {
-  console.log(var6); // referece error because outside of {} scope
+  console.log(var6); // reference error because outside of {} scope
 } catch (err) {
   console.log(err.message);
 }
@@ -32,10 +32,10 @@ var var5 = 'hoisted';
 console.log(var5);
 
 /*
-  Interpreation of above:
+  Interpretation of above:
   var var5;
   var5 = 'assigned';
-  console.log(var5); // 'assigned
+  console.log(var5); // assigned
   var5 = 'hoisted';
   console.log(var5); // hoisted
 */
